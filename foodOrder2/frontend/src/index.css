@@ -1,0 +1,109 @@
+/* .notFound{
+  position: fixed;
+  top: 0%;
+  width:100vw;
+  height: 100vh;
+  background-color: rgb(231, 236, 236);
+display: flex;
+justify-content: center;
+align-items: center;
+} */
+html{
+  transition: 2s;
+  scroll-behavior: smooth;
+}
+header {
+ border: 2px solid  rgb(198, 53, 48);
+ background-color: rgb(198, 53, 48);
+ color: #fff;
+ text-align: center;
+}
+.cartIcon{
+  position: absolute;
+  right:30px;
+  top:15px;
+  font-size: 1.5rem;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pizzas{
+  border-top: 2px solid lightgray;
+  border-left:none;
+  width: 1300px;
+  height: 170px;
+  margin: 20px;
+
+}
+.pizza-img{
+  width: 200px;
+  position: relative;
+  top:-170px;
+  left: 750px;
+  border-radius: 20px;
+}
+#pizza_content{
+  margin-left: 350px;
+}
+
+.addButton{
+ background-color: rgb(198, 53, 48);
+  color: #fff;
+  font-size: 1.4rem;
+  width: 150px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+   margin-top: 50px;
+}
+.clearButton{
+  background-color: rgb(198, 53, 48);
+  color: #fff;
+  font-size: 1rem;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+   position: relative;
+   top: -60px;
+   left: 400px;
+}
+.Home_section{
+  /* border: 2px solid red; */
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   align-items: center;
+   /* padding: 20px; */
+}
+.pizza{
+  border: 2px solid lightgray;
+  width: 300px;
+  height: 300px;
+  margin:50px;
+  border-radius: 20px;
+  box-shadow: 0  0 10px 10px lightgray;
+}
+.burger{
+  width: 300px;
+  height: 300px;
+  /* margin:50px; */
+  border: 2px solid  lightgray;
+  border-radius: 20px;
+  box-shadow: 0  0 10px 10px lightgray;
+
+}
+.title{
+  text-align: center;
+  margin-top: 10px;
+}
+.header_img{
+  border-radius:100%;
+  border:15px solid lightgrey;
+  width: 200px;
+  height: 220px;
+  margin: 20px 0px 0px 40px;
+}
